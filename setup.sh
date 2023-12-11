@@ -13,8 +13,7 @@ echo -e "\nInstalling required dependencies, please wait!\n"
 sleep 1
 
 # Install required dependencies
-pip install SpeechRecognition
-pip install pyaudio
+pip install SpeechRecognition pyaudio
 apt install portaudio19-dev -y
 
 echo -e "\nDone, run the 'main.py' file now!\n"
