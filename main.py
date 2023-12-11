@@ -50,7 +50,7 @@ def recognize_speech():
     with sr.Microphone() as source:
         print(Fore.CYAN + "Say something:")
         recognizer.adjust_for_ambient_noise(source)
-        audio = recognizer.listen(source, timeout=5)
+        audio = recognizer.listen(source)
 
         try:
             print(Fore.YELLOW + "You said: " + recognizer.recognize_google(audio))
