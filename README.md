@@ -7,7 +7,7 @@
 
 ### Clone the Repo
 ```bash
-git clone https://github.com/Atuls-git/speechRecon.git
+git clone https://github.com/A-Unix/speechRecon.git
 ```
 ### Go to the cloned folder
 ```bash
